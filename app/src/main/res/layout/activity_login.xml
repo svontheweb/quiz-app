@@ -66,6 +66,7 @@
             android:id="@+id/btnSignup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
             android:text="don't have an account? Sign Up"
             android:textAlignment="center"/>
     </LinearLayout>

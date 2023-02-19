@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import android.widget.TextView
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
@@ -22,6 +23,12 @@ class SignupActivity : AppCompatActivity() {
         var btnSignUp = findViewById<Button>(R.id.btnSignup)
         btnSignUp.setOnClickListener {
             signUpUser()
+        }
+
+        var btnLogIn = findViewById<TextView>(R.id.btnLogin)
+        btnLogIn.setOnClickListener {
+            val intent = Intent(this, LoginActivity:: class.java)
+            startActivity(intent)
         }
     }
 

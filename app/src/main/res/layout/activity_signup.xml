@@ -74,9 +74,10 @@
             android:background="@drawable/rounded_button"/>
 
         <TextView
-            android:id="@+id/etLogin"
+            android:id="@+id/btnLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
             android:text="Already have an account? LOG IN"
             android:textAlignment="center"/>
     </LinearLayout>

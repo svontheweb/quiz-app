@@ -1,9 +1,11 @@
 package com.example.ktquixapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import android.widget.TextView
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
 
@@ -18,6 +20,12 @@ class LoginActivity : AppCompatActivity() {
         var btnLogIn = findViewById<Button>(R.id.btnLogIn)
         btnLogIn.setOnClickListener {
             logInUser()
+        }
+
+        var btnSignUp = findViewById<TextView>(R.id.btnSignup)
+        btnSignUp.setOnClickListener {
+            val intent = Intent(this, SignupActivity:: class.java)
+            startActivity(intent)
         }
     }
 
