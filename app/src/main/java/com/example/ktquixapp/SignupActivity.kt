@@ -54,6 +54,9 @@ class SignupActivity : AppCompatActivity() {
                 if(it.isSuccessful){
                     // on success registration code
                     Toast.makeText(this,"Sign Up Successful", Toast.LENGTH_LONG).show()
+                    val intent = Intent(this, MainActivity:: class.java)
+                    startActivity(intent)
+                    finish()
                 }
                 else{
                     Toast.makeText(this, "Error creating user.", Toast.LENGTH_LONG).show()
