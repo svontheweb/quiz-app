@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "355827986519",
+    "project_id": "kt-quiz-app",
+    "storage_bucket": "kt-quiz-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355827986519:android:fe6251742449c9ea753312",
+        "android_client_info": {
+          "package_name": "com.example.ktquixapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "355827986519-kjn1vu2ua7nqhas83dnr6it0kbjcbm7d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmAo0k_kAO2KzfWM8dctns7MxPSYQpyk8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "355827986519-kjn1vu2ua7nqhas83dnr6it0kbjcbm7d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

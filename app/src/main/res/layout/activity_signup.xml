@@ -54,7 +54,7 @@
             android:background="@drawable/rounded_button"/>
 
         <EditText
-            android:id="@+id/etPassword"
+            android:id="@+id/etConfirmPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -65,7 +65,7 @@
             android:background="@drawable/rounded_button"/>
 
         <Button
-            android:id="@+id/btnSubmit"
+            android:id="@+id/btnSignup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Sign up"
@@ -74,7 +74,7 @@
             android:background="@drawable/rounded_button"/>
 
         <TextView
-            android:id="@+id/btnSignup"
+            android:id="@+id/etLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Already have an account? LOG IN"
